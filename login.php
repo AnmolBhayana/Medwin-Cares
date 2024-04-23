@@ -1,9 +1,15 @@
 <?php 
-
+    require_once 'include/auth_middleware.php';
     include "connect.php";
+
+    // Verify the token and get the user ID
+    $userId = verifyToken();
 
     session_start();
 
+    // If the token is valid, proceed with loading user data and rendering the dashboard
+    if ($userId)
+    {
     if(isset($_POST['add']))
     {
         $email = $_POST['email'];
@@ -34,6 +40,11 @@
             header("location:login.php");
         }
     }
+    }else{
+    // Token verification failed, redirect to the login page
+    header('Location: login.php');
+    }
+
 
 ?>
 <!DOCTYPE html>
