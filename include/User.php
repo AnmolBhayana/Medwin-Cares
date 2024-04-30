@@ -1,6 +1,6 @@
 <?php
 require_once 'vendor/autoload.php'; // Include the Composer autoloader
-require_once 'auth.php'; // Include the auth.php file with JWT generation/verification functions
+use auth; // Include the auth.php file with JWT generation/verification functions
 
 function verifyToken() {
     $token = null;
@@ -27,7 +27,7 @@ function verifyToken() {
             if ($userId) {
                 return $userId;
             } else {
-                throw new Exception('User ID not found in the token payload.');
+                throw new UnexpectedValueException('User ID not found in the token payload.');
             }
         } catch (Exception $e) {
             // Token is invalid or an error occurred during decoding

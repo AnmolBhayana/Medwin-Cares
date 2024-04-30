@@ -1,7 +1,7 @@
 <?php
 // UserModel.php or UserRepository.php
 
-require_once 'database.php'; // Include the file that establishes the database connection
+use hospital; // Include the file that establishes the database connection
 
 function getUserByUsername($username) {
     global $pdo; // Assuming the $pdo object is defined in the database.php file

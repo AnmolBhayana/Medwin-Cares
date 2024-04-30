@@ -1,7 +1,7 @@
 <?php
 require_once 'auth.php'; // Include the file containing the generate_jwt_token function
 require_once 'User.php'; // Include the file containing the User class and verifyPassword method
-require_once 'UserModel.php';
+use UserModel;
 
 $username = $_POST['username'];
 $password = $_POST['password'];
