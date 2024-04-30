@@ -1,6 +1,6 @@
 <?php
 
-include "connect.php";
+include_once "connect.php";
 
 session_start();
 
@@ -110,7 +110,7 @@ if (isset($_POST['logout'])) {
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="dentist performing a checkup">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Keep You Healthy</h5>
@@ -121,7 +121,7 @@ if (isset($_POST['logout'])) {
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="various doctors">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">It's all about your health</h5>
@@ -240,7 +240,7 @@ if (isset($_POST['logout'])) {
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;" alt="doctor and nurse">
                     </div>
                 </div>
             </div>

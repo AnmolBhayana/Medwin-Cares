@@ -1,6 +1,6 @@
 <?php 
     require_once 'include/auth_middleware.php';
-    include "connect.php";
+    include_once "connect.php";
 
     // Verify the token and get the user ID
     $userId = verifyToken();

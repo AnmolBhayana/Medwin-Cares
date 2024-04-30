@@ -2,7 +2,7 @@
 
     $hname = "localhost";
     $uname = "root";
-    $pass = "";
+    $pass = getenv('MYSQL_SECURE_PASSWORD');
     $db = "hospital";
 
     $conn = mysqli_connect($hname,$uname,$pass,$db);

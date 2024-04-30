@@ -1,0 +1,6 @@
+
+php:S100"TRename function "hash_password" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ä¹ZJ$f3f9bf66-2748-4d54-a1dd-1c8ecaf03152
+php:S100"VRename function "verify_password" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(øòìÏJ$979e6683-9c7f-4fbf-9a93-086529c87047
+˜php:S100"YRename function "generate_jwt_token" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(•õ¥ıÿÿÿÿJ$77577e9d-f169-4362-9949-f5c562bef275
+Yphp:S113"'Add a new line at the end of this file.J$8b52bc22-1840-4f71-8bdf-b5c1263c2d46
+œ	php:S1488"\Immediately return this expression instead of assigning it to the temporary variable "$jwt".(åãŸúøÿÿÿÿJ$1f86cf7c-75dc-499a-a707-c9f33706b675

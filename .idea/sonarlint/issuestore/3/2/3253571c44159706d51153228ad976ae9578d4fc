@@ -1,0 +1,25 @@
+
+’php:S100â"RRename function "client_send" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(éèşÿÿÿÿJ$9907d746-2163-4b6b-b8c8-7fe812c7a4bf
+‹php:S100Ä	"PRename function "get_lines" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¨ÚîµJ$7aaebbea-cdf4-419b-b4a2-a2f48c8857ca
+x	php:S1142Ã"<This method has 4 returns, which is more than the 3 allowed.(È¤³‘J$6eb69360-57b9-4b61-8cb5-ebd6b591111f
+~	php:S1142ò"=This method has 15 returns, which is more than the 3 allowed.(ÁÄ¦©şÿÿÿÿJ$bba68e4b-2e20-462d-ad48-b0d6da1a1e86
+x	php:S1142ã"<This method has 4 returns, which is more than the 3 allowed.(ûîßŠJ$2c2740c8-c4e4-4154-b19f-ff293b8fa3b8
+}	php:S1142š	"<This method has 5 returns, which is more than the 3 allowed.(Òÿ»ÏøÿÿÿÿJ$c3229b7b-613e-4a7a-a64b-d53899550f86
+‘php:S116"RRename this field "$do_debug" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ûş™–şÿÿÿÿJ$9003d278-3011-4153-b373-8d787f54a2ca
+•php:S116–"URename this field "$Debugoutput" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ï”—™şÿÿÿÿJ$d981b10e-cec1-4fed-b96e-72eb74ca7d4e
+Œphp:S116 "QRename this field "$do_verp" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(ˆÛ®àJ$afa6dc17-d596-4ac3-b86b-8559205fb047
+‘php:S116«"QRename this field "$Timeout" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¿¾ÊìøÿÿÿÿJ$e325ee8e-a489-452b-b633-a875677a154d
+php:S116³"SRename this field "$Timelimit" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ï—¹J$2b231cdc-2df6-43fa-9aaa-7a577df61491
+¦php:S116¼"fRename this field "$smtp_transaction_id_patterns" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Ì¯”ÀûÿÿÿÿJ$4cb5ea5d-7203-4d84-8d23-3b891d55f30d
+¢php:S116Ï"bRename this field "$last_smtp_transaction_id" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(í½ë£ÿÿÿÿÿJ$35658c53-c3c4-4005-a24a-034e500f1362
+php:S116Ö"SRename this field "$smtp_conn" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(¦ÃîJ$60b6cbf4-071a-4e0e-9bbe-53d1570e88dc
+php:S116ê"SRename this field "$helo_rply" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(»ß¸J$ca1013d1-68a0-4b3e-b9ac-115011d4991a
+•php:S116ö"URename this field "$server_caps" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(Œú“•ùÿÿÿÿJ$d22a5a0a-eb73-440d-ac48-81639bede23f
+”php:S116ı"TRename this field "$last_reply" to match the regular expression ^[a-z][a-zA-Z0-9]*$.(·”ñüıÿÿÿÿJ$54812f6c-f38d-44f8-9085-e6da04d3481b
+php:S117ö"URename this parameter "$OAuth" to match the regular expression ^[a-z_][a-zA-Z0-9_]*$.(õ‰­J$52f22683-cf28-4f11-a481-d09a5d6fb694
+•	php:S3776ò"TRefactor this function to reduce its Cognitive Complexity from 41 to the 15 allowed.(ÁÄ¦©şÿÿÿÿJ$0b3856b1-8c25-47c9-acb3-6ff40e3f7dd4
+•	php:S3776Ì"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(àô•áüÿÿÿÿJ$a3a05c69-6d44-474f-ae9f-d0a0fe858820
+•	php:S3776Ö"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(ù½ƒ ûÿÿÿÿJ$d618dca8-ac97-4ac6-b4e6-9fef279b560a
+	php:S3776Ä	"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(¨ÚîµJ$e424f8c6-8112-4ff0-8f84-dfe47c1de404
+‡	php:S1192ñ	"FDefine a constant instead of duplicating this literal " sec)" 3 times.(ï¯•äüÿÿÿÿJ$1260cd1f-e0bf-4abf-83d9-7ee06a99d7f9
+›	php:S1448"`Class "SMTP" has 39 methods, which is greater than 20 authorized. Split it into smaller classes.(¦ÄåŸJ$72f853ee-f120-427c-8528-930faf8861aa

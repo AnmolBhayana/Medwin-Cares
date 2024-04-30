@@ -1,0 +1,7 @@
+
+{	php:S1131J"@Remove the useless trailing whitespaces at the end of this line.(¹ÙÃJ$ef997d83-7d34-4c91-89cb-62774f13ddd6
+Yphp:S113"'Add a new line at the end of this file.J$9daf771d-4629-4f95-8f75-5e85537a8b85
+“	php:S1192"SDefine a constant instead of duplicating this literal "location:admin.php" 4 times.(µËã£üÿÿÿÿJ$ee5c2516-b643-47ca-93cc-b1b02048b256
+jphp:S121~"0Add curly braces around the nested statement(s).(ÙĞ«ëJ$acaf9eab-6ccb-4840-a601-5e9ac99a47f4
+kphp:S121…"0Add curly braces around the nested statement(s).(ãƒËJ$f5b8e2f9-591b-4fa8-abba-a9f2ef79fbc8
+˜	php:S4833"QReplace "include_once" with namespace import mechanism through the "use" keyword.(Ô¥¥½ÿÿÿÿÿ8æı†àò1J$0b1dd954-ed58-4354-aaef-4aa4ddc589c5

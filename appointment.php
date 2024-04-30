@@ -1,10 +1,10 @@
 <?php
-    include "connect.php"; 
+    include_once "connect.php";
     
     session_start();
-    require 'PHP MAILER\Exception.php';
-    require 'PHP MAILER\PHPMailer.php';
-    require 'PHP MAILER\SMTP.php';
+    require_once 'PHP MAILER\Exception.php';
+    require_once 'PHP MAILER\PHPMailer.php';
+    require_once 'PHP MAILER\SMTP.php';
     
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\SMTP;

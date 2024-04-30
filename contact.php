@@ -1,6 +1,6 @@
 <?php  
 
-include 'connect.php';
+include_once 'connect.php';
 
 session_start();
 
@@ -200,7 +200,7 @@ if (isset($_POST['add'])) {
                 <div class="col-xl-4 col-lg-12 wow slideInUp" data-wow-delay="0.6s">
                     <iframe class="position-relative rounded w-100 h-100"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.75454309553!2d73.83062667392406!3d18.44945058263034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2952dc20369c9%3A0xf01fafe6f1faa039!2sMedwin%20Cares%20Hospital!5e0!3m2!1sen!2sin!4v1694689842595!5m2!1sen!2sin"
-                    tabindex="0"></iframe>
+                    tabindex="-1" title="image content"></iframe>
                 </div>
             </div>
         </div>
